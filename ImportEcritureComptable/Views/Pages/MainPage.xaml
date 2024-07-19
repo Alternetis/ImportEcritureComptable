@@ -1,0 +1,46 @@
+﻿<Page x:Class="ImportEcritureComptable.Views.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ImportEcritureComptable.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="200" d:DesignWidth="500"
+      Title="MainPage" Background="White">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label  Grid.Column="0" Content="Fichier " VerticalAlignment="Bottom" FontSize="20" FontWeight="Bold"></Label>
+            
+            <TextBox  Grid.Row="1" Grid.Column="0" VerticalAlignment="Top"  FontSize="20" IsReadOnly="True" Name="TextBoxFileName" 
+                      BorderThickness="0.6" ></TextBox>
+            <Button  Grid.Row="1" Grid.Column="1" Click="FindFile_Click" Name="FindFile" VerticalAlignment="Top" 
+                   Content="...."  Background="GhostWhite" FontSize="17.5" BorderBrush="LightGray" BorderThickness="1"></Button>
+
+        </Grid>
+        <!--<Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label FontSize="15" FontWeight="Bold" Content="Code journal " VerticalAlignment="Center"></Label>
+            <ComboBox Grid.Row="1" VerticalAlignment="Center" FontSize="17" Name="ComboBoxCodeJournal" 
+                      SelectionChanged="ComboBoxCodeJournal_SelectionChanged"> </ComboBox>
+        </Grid>-->
+
+    </Grid>
+</Page>

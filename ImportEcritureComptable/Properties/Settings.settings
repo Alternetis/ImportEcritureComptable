@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ImportEcritureComptable.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SageFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\AliDhoifiri\Documents\Sage\Bijou.gcm</Value>
+    </Setting>
+    <Setting Name="SageUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;Administrateur&gt;</Value>
+    </Setting>
+    <Setting Name="SagePassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
